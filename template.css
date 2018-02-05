@@ -370,7 +370,6 @@ body {
 }
 
 .color-blocks div {
-
 	color: #fff;
 	width: 307px;
 	height: 66px;
@@ -384,17 +383,23 @@ body {
 
 
 .color-blocks .blue {
-border-radius: 50%;
+	-webkit-border-radius: 22px;
+	-moz-border-radius: 22px;
+	border-radius: 22px;
 	background-color: #0e68ab;
 }
 
 .color-blocks .red {
-	border-radius: 50%;
+	-webkit-border-radius: 22px;
+	-moz-border-radius: 22px;
+	border-radius: 22px;
 	background-color: #D80B12;
 }
 
 .color-blocks .purple {
-	border-radius: 50%;
+	-webkit-border-radius: 22px;
+	-moz-border-radius: 22px;
+	border-radius: 22px;
 	background-color: #7E0B80;
 	margin-right: 0
 }
@@ -434,16 +439,17 @@ border-radius: 50%;
 }
 
 .color-blocks div .bottom {
+	
 	background-color: rgba(255, 255, 255, .3);
 	font-size: 12px;
 	text-transform: uppercase;
 	height: 13px;
 	display: block;
 	position: absolute;
-	width: 315px;
+	width: 250px;
 	bottom: 0;
 	right: 0;
-	padding: 7px 10px
+	padding: 10px 50px
 }
 
 .color-blocks div .bottom svg {
@@ -519,14 +525,12 @@ border-radius: 50%;
 	float: left;
 	background-color: #eaeaea;
 	color: #568fba;
-	width: 45px;
+	width: 60px;
 	height: 45px;
-	font-size: 24px;
+	font-size: 18px;
 	font-weight: 700;
 	line-height: 45px;
-	-webkit-border-radius: 22px;
-	-moz-border-radius: 22px;
-	border-radius: 22px;
+
 	text-transform: uppercase;
 	text-align: center;
 	cursor: pointer
@@ -542,16 +546,16 @@ border-radius: 50%;
 
 .test-case .body {
 	color: #333;
+
+
 	font-size: 12px;
 	background-color: #fafafa;
 	border-left: 3px solid #568fba;
 	padding: 10px;
 	width: 945px;
 	margin-left: 20px;
-	float: left;
 	cursor: pointer;
 	word-wrap: break-word;
-	height: 60px;
 	overflow: hidden
 }
 
